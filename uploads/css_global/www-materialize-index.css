@@ -56,7 +56,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     white-space: nowrap;
 }
 
-p#ctTimeReturnCount {
+.ctTimeReturnCountContent .ctTimeReturnCountMenu p#ctTimeReturnCount {
     font-family: 'Share Tech Mono', monospace;
     color: #ffffff;
     text-align: center;
@@ -69,9 +69,8 @@ p#ctTimeReturnCount {
     white-space: nowrap;
 }
 
-h2#ctFelicitionMessage {
+/* h2#ctFelicitionMessage {
     font-family: 'Share Tech Mono', monospace;
-    color: #ffffff;
     text-align: center;
     position: absolute;
     left: 50%;
@@ -80,5 +79,22 @@ h2#ctFelicitionMessage {
     color: #daf6ff;
     font-size: 43px;
     white-space: nowrap;
+} */
+
+div.ffoContent{
+        color: #000000;
+        text-align: center;
+        position: absolute;
+        color: #daf6ff;
+        left: 35%;
+        top: 90%;
+    
 }
 
+#cmIframeYtVideo{
+ position: absolute;
+ top: 2%;
+ right: 30%;
+ width: 50%;
+ height: 100%;
+}
