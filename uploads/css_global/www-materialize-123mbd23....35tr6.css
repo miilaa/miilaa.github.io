@@ -4,7 +4,7 @@
           box-sizing: border-box;
          }
          
-         .root, body, html, div#rtContent {
+         .root, body, html{
              display: flex;
              flex-direction: column;
              height: 100%;

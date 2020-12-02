@@ -11,7 +11,6 @@
     position: relative;
     width: 100%;
     background-color: #000000;
-    flex-wrap: wrap;
 }
 
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
@@ -23,13 +22,13 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     vertical-align: baseline;
     }
    
-    canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6, hr, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6, hr, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
        margin: 0;
        padding: 0;
        border: 0;
        background: transparent;
    }
-   
+
 
 #ctTime .ctTimeLiveCountMenu .ctTimeLiveCountContent p#ctTimeLiveCount{
     font-family: 'Share Tech Mono', monospace;
@@ -56,12 +55,6 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     white-space: nowrap;
 }
 
-.rtContent{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: relative;
-}
 
 /*
 header{
