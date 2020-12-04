@@ -5,7 +5,6 @@ const path = require("path");
 //Mettings
 
 app.set("port", 60);
-app.set("views", path.join(__dirname+"/views/"));
 app.set("view engine", "ejs");
 
 //Middlewares
@@ -19,3 +18,5 @@ app.use(require("./routes/index"));
 app.listen(app.get("port"), () => {
  console.log(`Server Está Escuchando Al Puerto ${app.get("port")}`);
 });
+
+console.log(__dirname)
