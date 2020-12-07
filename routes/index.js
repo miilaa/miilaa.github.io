@@ -10,4 +10,5 @@ router.get("/noticia", (req, res) => {
   res.render("../noticia.html")
 });
 
+
 module.exports = router;
