@@ -65,19 +65,31 @@
     width: 1366px;
     margin-bottom: 3px;
   }
+
+  #_0s34l #_9l22k{
+    width: auto;
+    height: 390px;
+    margin-bottom: 3px; 
+   } 
+
+   ._9l22z{
+    height: 57px;
+    width: 240px;
+   }
+
    #_5d15c ._5d15m ._5d15a p#_5d15q {
        font-family: 'Share Tech Mono', monospace;
        color: #daf6ff;
    }
-   #_5d15c ._5d15m ._5d15a p#_5d15q {
+   #_5d15c ._5d15m ._5d15a p#_5d15q{
    text-align: center;
     transform: translate(-50%, -50%);
    }
 
     ._5d15a p#_5d15q{
       position: absolute;
-      left: 93.5%;
-      top: 96%;
+      left: 90.5%;
+      top: 97.2%;
     }
 
     p#_5d15q{
@@ -85,6 +97,12 @@
     white-space: nowrap;
     }
    
+    ._5d15a p#_5d15q{
+      position: absolute;
+      left: 94.5%;
+      top: 96%;
+    }
+
    #_9l22k ._9l22z ._9l22o p#_9122d {
     font-family: 'Share Tech Mono', monospace;
     color: #daf6ff;
@@ -102,32 +120,22 @@
    text-align: center;
    transform: translate(-50%, -50%);
    }
-   #_0s34l #_9l22k{
-    width: auto;
-    height: 390px;
-    margin-bottom: 3px; 
-   } 
-   ._9l22z{
-    height: 57px;
-    width: 240px;
-   }
 </style>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<!-- <script type="text/javascript" src="/uploads/javascript_modules/Jquery/jquery.js"></script> -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.7/jstz.min.js" integrity="sha512-pZ0i46J1zsMwPd2NQZ4IaL427jXE2RVHMk3uv/wPTNlBVp9AbB1L65/4YdrXRPLEmyZCkY9qYOOsQp44V4orHg==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.7/jstz.js" integrity="sha512-gPgCxBK1xjsllNvxhv6tdK4IU2lH7c5a/O9kg9y73K1+hDC4TUlkHz0pLfL6jyS7RrghnscJutlzvAiAojHh+w==" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://miilaa.github.io/uploads/javascript_modules/Jquery/jquery.scrlbr.js"></script>
 <script type="text/javascript" src="https://miilaa.github.io/uploads/javascript_modules/Jquery/jquery.typewatch.min.js"></script>
 <script type="text/javascript" src="https://miilaa.github.io/uploads/javascript_modules/Jquery/jquery.boostrap.js"></script>
 <script type="text/javascript" src="https://miilaa.github.io/uploads/javascript_modules/Jquery/jquery.moernizr.js"></script>
 <script type="text/javascript">
-function clock(){var hour=document.getElementById("_5d15q");var h=new Date().getHours();var m=new Date().getMinutes();var s=new Date().getSeconds();hour.innerHTML=+h+":"+m+":"+s+" UTC+1"}var x=setInterval(clock,1000);
+function c(){var hour=document.getElementById("_5d15q");var h=new Date().getHours();var m=new Date().getMinutes();var s=new Date().getSeconds();hour.innerHTML=+h+":"+m+":"+s+" "+o()};var x=setInterval(c,1000);function o(){let timezone=jstz.determine();return timezone.name()};
 var countDownDate=new Date("Dec 23, 2020 UTC+1 13:30:00").getTime();var x=setInterval(function(){var now=new Date().getTime();var distance=countDownDate-now;var days=Math.floor(distance/(1000*60*60*24));var hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));var minutes=Math.floor((distance%(1000*60*60))/(1000*60));var seconds=Math.floor((distance%(1000*60))/1000);document.getElementById("_9122d").innerHTML=days+"d "+hours+"h "
 +minutes+"m "+seconds+"s ";var z=document.getElementById("_5a24p");if(distance<0){clearInterval(x);z.style.display="block";z.style.fontFamily="'Share Tech Mono', monospace";z.style.color="#daf6ff";z.style.textAlign="center";z.style.position="absolute";z.style.top="50%";z.style.left="50%";z.style.transform="translate(-50%, -50%)";z.style.fontSize="43px";z.style.whiteSpace="nowrap";document.getElementById("_5a24p").style.display="block";var n=document.getElementById("_9122d");n.style.display="none";}}, 1000);
 </script>
 <script type="text/javascript">
-  !function(){var e=function(){var e,t="__tcfapiLocator",a=[],n=window;for(;n;){try{if(n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
+!function(){var e=function(){var e,t="__tcfapiLocator",a=[],n=window;for(;n;){try{if(n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
 </script>
 <script type="text/javascript">window.startTime = Date.now();</script>
-<div class="gstl_50 sbdd_a" dir="ltr" style="min-width: 573px; top: 40px; position: fixed; text-align: left; display: none; left: 0px;"><div class="fl"></div><div><div class="sbdd_b"><div class="sbsb_a"><ul class="sbsb_b" role="listbox"></ul></div></div><div></div></div></div>
-<iframe src="about:blank" style="display: none;"></iframe>
 </html>
