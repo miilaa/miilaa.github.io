@@ -38,12 +38,10 @@
     </div>
    </div>
    </div>
-   <div id="_3ñ61m">
+   <div id="_3ñ61m" style="display: none">
     <div class="3ñ61t">
       <div class="3ñ61x">
-        <form action="/search" method="GET">
         <input name="q" type="text" id="3ñ61b" autocomplete="list" spellcheck="true" placeholder="Buscar En Google" aria-label="Buscar" aria-haspopup="false" dir="ltr">
-        </form>
       </div>
     </div>
     <ul class="3ñ52q">
@@ -147,13 +145,6 @@ var countDownDate=new Date("Dec 22, 2020 UTC+1 13:30:00").getTime();var x=setInt
 +minutes+"m "+seconds+"s ";var z=document.getElementById("_5a24p");if(distance<0){clearInterval(x);z.style.display="block";z.style.fontFamily="'Share Tech Mono', monospace";z.style.color="#daf6ff";z.style.textAlign="center";z.style.position="absolute";z.style.top="50%";z.style.left="50%";z.style.transform="translate(-50%, -50%)";z.style.fontSize="43px";z.style.whiteSpace="nowrap";document.getElementById("_5a24p").style.display="block";var n=document.getElementById("_9122d");n.style.display="none";}}, 1000);
 </script>
 <script type="text/javascript">
-!function(){var e=function(){var e,t="__tcfapiLocator",a=[],n=window;for(;n;){try{if(n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
-</script>
-<script type="text/javascript">
-  $(document).ready(function(){var search_opts={callback:function(value){searchy(value);},wait:500,highlight:true,allowSubmit:false,captureLength:2}
-  $("#3ñ61b").typeWatch(search_opts);$("#3ñ61b").on('input',function(){var searchTerm=$(this).val();if(searchTerm.length>1){$('.Search').addClass('On');$(".ListResult").html('<li class="Loading"><img src="/assets/images/preloader_white.gif" alt="Loading" /> Buscando...</li>');}else
-  $('.3ñ61t').removeClass('On');});function searchy(value){if(value.length<2)
-  return;$.post('',{value:value},function(data){$('.3ñ61t').addClass('On');$(".3ñ51").empty();var data_len=data.length;if(data_len){for(var i=0;i<data_len;i++){console.log(data[i]);if(i>=5){$(".3ñ61q").append('<li class="MasResultados"><a href="/search?q='+encodeURI(value)+'">Más Resultados</a></li>');return false;}}}})}});
-  </script>
+!function(){var e=function(){var e,t="__tcfapiLocator",a=[],n=window;for(;n;){try{if(n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();</script>
 <script type="text/javascript">window.startTime = Date.now();</script>
 </html>
