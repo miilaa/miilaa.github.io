@@ -1,0 +1,1 @@
+const express=require("express");const router=express.Router();const path=require("path");router.get("/noticia001",(req,res)=>{res.render("./residuos/noticia001.html")});router.get("/noticia002",(req,res)=>{res.render("../noticia002.html")});module.exports=router;
