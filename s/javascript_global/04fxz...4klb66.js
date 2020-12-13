@@ -1,0 +1,1 @@
+$("._2d82a").on("click",()=>{window.open("https://miilaa.github.io/noticia001")}); $("._2d82b").on("click",()=>{window.open("https://miilaa.github.io/noticia002")}); $("._2d82c").on("click",()=>{window.open("https://miilaa.github.io/radio")}); $("._2d82d").on("click",()=>{window.open("https://github.com/miilaa/miilaa.github.io")});

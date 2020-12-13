@@ -1,0 +1,9 @@
+body, html{
+ background-color: #000000;
+}
+
+audio{
+ position: absolute;
+ top: 50%;
+ left: 501px;
+}
