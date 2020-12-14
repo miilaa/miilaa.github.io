@@ -12,16 +12,16 @@
              width: 100%;
             background-color: #000000;
          }
- header{
+header{
  height: 7.5vh;
- width: 1349.5px;
+ width: 100%;
  position: absolute;
  top: -21.3%;
- background-color: blueviolet;
+ background-color: rgb(16, 14, 17);
  white-space: nowrap;
  }
  header p#editorial{
- color: #000000;
+ color: #ff0000;
  position: absolute; 
  top: 10%;
  right: 46%;
@@ -50,7 +50,7 @@
  color: #ffffff;
  position: absolute;
  top: -10%;
- right: 20%;
+ right: 33%;
  font-size: 40px;
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
  white-space: normal;
@@ -59,8 +59,8 @@
  color: #ffffff;
  position: absolute;
  top: -2%;
- right: 12%;
- font-size: 20px;
+ right: 7%;
+ font-size: 19px;
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  white-space: normal;
  }
@@ -118,3 +118,19 @@
   top: 4%;
   left: 1%;
  }
+ footer{
+    height: 25vh;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    background-color: rgb(16, 14, 17);
+    white-space: nowrap;
+   }
+   footer a#link-pagina-principal{
+       color: rgb(255, 0, 0);
+       text-decoration:underline;
+       position: absolute;
+       top:40%;
+       left: 37%;
+       white-space: nowrap;
+   }

@@ -43,10 +43,7 @@
           color: #990a0a;
           }
           75%{
-           color: #f04400;
-          }
-          85%{
-           color:#ff00ea;
+          color: #f04400;
           }
            to{
             transform: rotate(360deg);
