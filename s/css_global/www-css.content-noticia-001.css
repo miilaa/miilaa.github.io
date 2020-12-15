@@ -12,9 +12,9 @@
              width: 100%;
             background-color: #000000;
          }
- .root header{
+header{
  height: 7.5vh;
- width: 1349.5px;
+ width: 100%;
  position: absolute;
  top: -21.3%;
  background-color: blueviolet;
@@ -127,9 +127,9 @@
   top: 4%;
   left: 1%;
  }
-.root main footer{
+footer{
  height: 25vh;
- width: auto;
+ width: 100%;
  position: absolute;
  top: 90%;
  background-color: blueviolet;
