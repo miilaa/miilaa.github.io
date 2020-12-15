@@ -65,7 +65,7 @@ header{
  white-space: normal;
  }
  p#subtitulo{
- color: #ffffff;
+ color: #00eaff;
  position: absolute;
  top: 54.5%;
  left: 22.4%;
@@ -111,7 +111,16 @@ header{
  font-family:Georgia, 'Times New Roman', Times, serif; 
  white-space: nowrap;
  }
- img#medico{
+ p#cuerpo4{
+ color: #ffffff;
+ position: absolute;
+ top: 73%;
+ left: 0.3%;
+ font-size: 20px;
+ font-family:Georgia, 'Times New Roman', Times, serif; 
+ white-space: nowrap;
+ }
+ img#libro{
   width: 40%;
   height: 50%;
   position: absolute;
@@ -123,11 +132,11 @@ header{
     width: 100%;
     position: absolute;
     top: 90%;
-    background-color: rgb(16, 14, 17);
+    background-color: rgb(255, 0, 0);
     white-space: nowrap;
    }
    footer a#link-pagina-principal{
-       color: rgb(255, 0, 0);
+       color: rgb(0, 0, 0);
        text-decoration:underline;
        position: absolute;
        top:40%;

@@ -17,11 +17,11 @@ header{
  width: 100%;
  position: absolute;
  top: -21.3%;
- background-color: rgb(255, 0, 0);
+ background-color: rgb(16, 14, 17);
  white-space: nowrap;
  }
  header p#editorial{
- color: #000000;
+ color: #ff0000;
  position: absolute; 
  top: 10%;
  right: 46%;
@@ -75,7 +75,7 @@ header{
  white-space: normal;
  }
  span.subtitulo{
- color: rgb(224, 221, 0);
+ color: rgb(0, 255, 0);
  position: absolute;
  top: 54.5%;
  left: 35%;
@@ -111,7 +111,7 @@ header{
  font-family:Georgia, 'Times New Roman', Times, serif; 
  white-space: nowrap;
  }
- img#medico{
+ img#movil{
   width: 40%;
   height: 50%;
   position: absolute;
