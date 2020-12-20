@@ -96,7 +96,7 @@
           ._5d15a p#_5d15q{
             position: absolute;
             left: 90%;
-            top: 97%;
+            top: 99%;
           }
       
          #_9l22k ._9l22z ._9l22o p#_9122d {
@@ -186,9 +186,22 @@
               color: #ffffff;
               cursor: pointer;
               }
-            .twitter-tweet{
-             max-width: 20%;
+            #_4i02m{
+             display: flex;
+            }
+            #_4i02m iframe{
              position: absolute;
-             top: 68%;
-             right: 30%;
+             top: 15%;
+             right: 2%;
+             width: 1110px;
+             height: 80%;
+             white-space: nowrap;
+            }
+            
+            #_4i02m h2._4i02g{
+            position: absolute;
+            top: 8%;
+            right: 43%;
+            color: #daf6ff;
+            font-size: 150%;
             }
