@@ -81,7 +81,7 @@
 <script type="text/javascript">
 function c(){var hour=document.getElementById("_5d15q");var h=new Date().getHours();var m=new Date().getMinutes();var s=new Date().getSeconds();hour.innerHTML=+h+":"+m+":"+s+" "+o()};var x=setInterval(c,1000);function o(){let timezone=jstz.determine();return timezone.name()};
 var countDownDate=new Date("Mar 25, 2020 UTC+1 13:30:00").getTime();var x=setInterval(function(){var now=new Date().getTime();var distance=countDownDate-now;var days=Math.floor(distance/(1000*60*60*24));var hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));var minutes=Math.floor((distance%(1000*60*60))/(1000*60));var seconds=Math.floor((distance%(1000*60))/1000);document.getElementById("_9122d").innerHTML=days+"d "+hours+"h "
-+minutes+"m "+seconds+"s ";if(distance<0){clearInterval(x);window.onload=function(){window.location.reload()};document.getElementById("_5a24p").style.display="block";document.getElementById("_9122d").style.display="none";document.getElementById("_7s11l").style.display="block";document.getElementById("_2d82x").style.display="block";document.getElementById("_4i02m").style.display="block";}}, 1000);
++minutes+"m "+seconds+"s ";if(distance<0){clearInterval(x);document.getElementById("_5a24p").style.display="block";document.getElementById("_9122d").style.display="none";document.getElementById("_7s11l").style.display="block";document.getElementById("_2d82x").style.display="block";document.getElementById("_4i02m").style.display="block";}}, 1000);
 </script>
 <script type="text/javascript">
 </script>
